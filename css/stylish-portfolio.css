@@ -20,6 +20,8 @@ body {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .text-vertical-center h1 {
@@ -127,6 +129,10 @@ hr.small {
     background: none;
 }
 
+a[id^='menu-'] {
+  border-radius: 50vw;
+}
+
 #menu-toggle {
     z-index: 1;
     position: fixed;
@@ -160,6 +166,17 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#header-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  background-color: rgba(0, 0, 0,0.5);
+  padding: 15px;
+  -webkit-border-radius: 4vw;
+  -moz-border-radius: 4vw;
+  border-radius: 4vw;
 }
 
 #top h1, #top h3 {
